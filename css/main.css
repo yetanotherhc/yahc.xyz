@@ -1,0 +1,78 @@
+head {
+  height: 0;
+}
+
+body {
+  margin: 0;
+}
+
+body div {
+    text-align: center; 
+}
+
+h1 {
+  font-family: 'AvenirNext-Heavy', 'Open Sans Condensed', 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
+  font-size: 6em;
+  font-weight: 700;
+  color: rgb(241, 241, 241);
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+    font-family: 'AvenirNext-Heavy', 'Open Sans Condensed', 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    color: rgb(241, 241, 241);
+    text-align: center;
+    margin: 0;
+}
+
+p {
+  font-family: 'AvenirNext-Regular', 'Open Sans Condensed', 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+  color: rgb(71, 71, 71);
+  text-align: center;
+  
+  width: 65%;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: rgb(71, 71, 71);
+}
+
+div {
+  margin-top: 3em;
+}
+
+div p {
+  
+  font-size: 1.25em;
+}
+
+/* Footer */
+
+footer p {
+  color: rgba(200, 200, 200, 0.7);
+  width: 100%;
+  font-size: 14px;
+}
+
+footer a {
+  color: rgba(200, 200, 200, 0.7);
+  width: 100%;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+/* Mobile */
+
+@media (max-width: 667px) {
+  body {
+    font-size: 75%;
+  }
+}
